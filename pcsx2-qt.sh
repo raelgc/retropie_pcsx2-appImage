@@ -16,6 +16,10 @@ rp_module_licence="GPL3 https://raw.githubusercontent.com/PCSX2/pcsx2/master/COP
 rp_module_section="exp"
 rp_module_flags="!all x86"
 
+function depends_pcsx2-qt() {
+    getDepends jq
+}
+
 function install_bin_pcsx2-qt() {
     mkdir -p "$md_inst/bin"
     version=$(curl --silent "https://api.pcsx2.net/v1/latestReleasesAndPullRequests" | jq -r ".nightlyReleases | .data | .[0] | .version")
