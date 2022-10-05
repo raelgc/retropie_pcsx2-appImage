@@ -1,6 +1,6 @@
 # PCSX2 Qt Setup for Retropie
 
-Retropie plugin to install and update the [PCSX2 emulator](https://pcsx2.net) with the new [Qt interface](https://www.reddit.com/r/emulation/comments/uvf7cd/pcsx2_first_public_qt_release_is_now_available/).
+Retropie plugin to install and update the [PCSX2 emulator](https://pcsx2.net) with the new [Qt interface](https://www.reddit.com/r/emulation/comments/uvf7cd/pcsx2_first_public_qt_release_is_now_available/) (AVX2 version).
 
 This will add an entry on [Retropie-Setup](https://github.com/RetroPie/RetroPie-Setup) named `pcsx2-qt`.
 
