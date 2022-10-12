@@ -30,5 +30,6 @@ function install_bin_pcsx2-qt() {
 function configure_pcsx2-qt() {
     mkRomDir "ps2"
     addEmulator 0 "$md_id" "ps2" "$md_inst/bin/rpcs2.AppImage %ROM% -fullscreen -batch"
+    addEmulator 1 "$md_id-nogui" "ps2" "$md_inst/bin/rpcs2.AppImage %ROM% -fullscreen -nogui"
     addSystem "ps2"
 }
