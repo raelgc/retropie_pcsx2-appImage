@@ -7,6 +7,18 @@ This will add an entry on [Retropie-Setup](https://github.com/RetroPie/RetroPie-
 Available only on `X86` (aka PC) platform.
 
 
+## Requirements
+
+Check if you have PS2 already listed in file `~/RetroPie-Setup/platforms.cfg`.
+
+If not, create (or edit) file `/opt/retropie/configs/all/platforms.cfg` and add:
+
+```
+ps2_exts=".iso .img .bin .mdf .z .z2 .bz2 .dump .cso .chd .ima .gz"
+ps2_fullname="PlayStation 2"
+```
+
+
 ## Install
 
 Install the `pcsx2-qt` pluging running in a terminal:
