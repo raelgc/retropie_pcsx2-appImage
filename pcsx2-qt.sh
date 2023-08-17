@@ -23,7 +23,7 @@ function depends_pcsx2-qt() {
 function install_bin_pcsx2-qt() {
     mkdir -p "$md_inst/bin"
     version=$(curl --silent -H "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" "https://api.pcsx2.net/v1/latestReleasesAndPullRequests" | jq -r ".nightlyReleases | .data | .[0] | .version")
-    wget --content-disposition https://github.com/PCSX2/pcsx2/releases/download/$version/pcsx2-$version-linux-appimage-64bit-Qt.AppImage -O "$md_inst/bin/pcsx2.AppImage"
+    wget --content-disposition https://github.com/PCSX2/pcsx2/releases/download/$version/pcsx2-$version-linux-appimage-x64-Qt.AppImage -O "$md_inst/bin/pcsx2.AppImage"
     chmod +x "$md_inst/bin/pcsx2.AppImage"
 }
 
