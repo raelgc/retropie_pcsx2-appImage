@@ -24,7 +24,7 @@ ps2_fullname="PlayStation 2"
 Install the `pcsx2-qt` pluging running in a terminal:
 
 ```bash
-wget https://raw.githubusercontent.com/raelgc/retropie_pcsx2-qt/master/pcsx2-appImage.sh -O ~/RetroPie-Setup/scriptmodules/emulators/pcsx2-appImage.sh
+wget https://raw.githubusercontent.com/raelgc/retropie_pcsx2-appImage/master/pcsx2-appImage.sh -O ~/RetroPie-Setup/scriptmodules/emulators/pcsx2-appImage.sh
 ```
 
 Now you can run **RetroPie Setup** script and `rpcs2-appImage` will available under `exp` (experimental) packages section.
