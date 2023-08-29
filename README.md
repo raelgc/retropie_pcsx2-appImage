@@ -1,4 +1,4 @@
-# PCSX2 Qt Setup for Retropie
+# PCSX2 AppImage Setup for Retropie
 
 Retropie plugin to install and update the [PCSX2 emulator](https://pcsx2.net) with the new [Qt interface](https://www.reddit.com/r/emulation/comments/uvf7cd/pcsx2_first_public_qt_release_is_now_available/) using the [AppImage](https://en.wikipedia.org/wiki/AppImage) version, which requires no compilation.
 
